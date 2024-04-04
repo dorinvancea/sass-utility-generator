@@ -1,0 +1,24 @@
+:root {
+  /* Base Sizes: https://chrisburnell.com/clamp-calculator/?font-size-root=10&size-min=14&size-max=16&viewport-min=516&viewport-max=960&viewport-units=vi */
+  --size-2: 0.2rem;
+  --size-4: 0.4rem;
+  --size-6: clamp(0.4rem, 0.168rem + 0.45vi, 0.6rem);
+  --size-8: clamp(0.6rem, 0.368rem + 0.45vi, 0.8rem);
+  --size-10: clamp(0.8rem, 0.568rem + 0.45vi, 1rem);
+  --size-12: clamp(1rem, 0.768rem + 0.45vi, 1.2rem);
+  --size-14: clamp(1.2rem, 0.968rem + 0.45vi, 1.4rem);
+  --size-16: clamp(1.4rem, 1.168rem + 0.45vi, 1.6rem);
+  --size-18: clamp(1.6rem, 1.368rem + 0.45vi, 1.8rem);
+  --size-20: clamp(1.6rem, 1.135rem + 0.901vi, 2rem);
+  --size-24: clamp(1.8rem, 1.103rem + 1.351vi, 2.4rem);
+  --size-28: clamp(2.4rem, 1.935rem + 0.901vi, 2.8rem);
+  --size-32: clamp(2.6rem, 1.903rem + 1.351vi, 3.2rem);
+  --size-40: clamp(3.2rem, 2.27rem + 1.802vi, 4rem);
+  --size-48: clamp(3.8rem, 2.638rem + 2.252vi, 4.8rem);
+  --size-56: clamp(4rem, 2.141rem + 3.604vi, 5.6rem);
+  --size-64: clamp(4.8rem, 2.941rem + 3.604vi, 6.4rem);
+  --size-80: clamp(6.4rem, 4.541rem + 3.604vi, 8rem);
+  --size-96: clamp(7.2rem, 4.411rem + 5.405vi, 9.6rem);
+  --size-112: clamp(8.4rem, 5.146rem + 6.306vi, 11.2rem);
+  --size-128: clamp(9.6rem, 5.881rem + 7.207vi, 12.8rem);
+}

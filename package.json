@@ -1,0 +1,19 @@
+{
+  "name": "sass-utility-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clear": "node scripts/clear-dist.js",
+    "build": "npm run clear && node scripts/build.js"
+  },
+  "author": "Dorin Vancea",
+  "homepage": "https://github.com/dorinvancea/utility-generator#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.83.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

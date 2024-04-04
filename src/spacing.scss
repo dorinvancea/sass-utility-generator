@@ -1,0 +1,39 @@
+/* Spacing
+------------------------------------ */
+$spacing: "auto", 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 24, 28, 32, 40, 48, 56, 64, 80, 96, 112, 128;
+
+@mixin generator($selector, $property) {
+  .#{$selector} {
+    @each $size in $spacing {
+      @if $size == "auto" {
+        &-auto {
+          #{$property}: auto !important
+        }
+      } @else {
+        &-#{$size} {
+          #{$property}: var(--size-#{$size}) !important
+        }
+      }
+    }
+  }
+}
+
+// Margins
+@include generator("m", "margin");
+@include generator("mt", "margin-block-start");
+@include generator("mb", "margin-block-end");
+@include generator("ml", "margin-inline-start");
+@include generator("mr", "margin-inline-end");
+
+// Padding
+@include generator("p", "padding");
+@include generator("pt", "padding-block-start");
+@include generator("pb", "padding-block-end");
+@include generator("pl", "padding-inline-start");
+@include generator("pr", "padding-inline-end");
+
+// gap
+@include generator("gap", "gap");
+
+@include generator("size-x", "inline-size");
+@include generator("size-y", "block-size");
