@@ -19,18 +19,18 @@ $spacing: "auto", 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 24, 28, 32, 40, 48, 56,
 }
 
 // Margins
-@include generator("m", "margin");
-@include generator("mt", "margin-block-start");
-@include generator("mb", "margin-block-end");
-@include generator("ml", "margin-inline-start");
-@include generator("mr", "margin-inline-end");
+@include generator("mg", "margin");
+@include generator("mbs", "margin-block-start");
+@include generator("mbe", "margin-block-end");
+@include generator("mis", "margin-inline-start");
+@include generator("mie", "margin-inline-end");
 
 // Padding
-@include generator("p", "padding");
-@include generator("pt", "padding-block-start");
-@include generator("pb", "padding-block-end");
-@include generator("pl", "padding-inline-start");
-@include generator("pr", "padding-inline-end");
+@include generator("pd", "padding");
+@include generator("pbs", "padding-block-start");
+@include generator("pbe", "padding-block-end");
+@include generator("pis", "padding-inline-start");
+@include generator("pie", "padding-inline-end");
 
 // gap
 @include generator("gap", "gap");

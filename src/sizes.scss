@@ -1,5 +1,7 @@
 :root {
+  /* Scalable sizes */
   /* Base Sizes: https://chrisburnell.com/clamp-calculator/?font-size-root=10&size-min=14&size-max=16&viewport-min=516&viewport-max=960&viewport-units=vi */
+  /* --size-0: 0;
   --size-2: 0.2rem;
   --size-4: 0.4rem;
   --size-6: clamp(0.4rem, 0.168rem + 0.45vi, 0.6rem);
@@ -20,5 +22,34 @@
   --size-80: clamp(6.4rem, 4.541rem + 3.604vi, 8rem);
   --size-96: clamp(7.2rem, 4.411rem + 5.405vi, 9.6rem);
   --size-112: clamp(8.4rem, 5.146rem + 6.306vi, 11.2rem);
-  --size-128: clamp(9.6rem, 5.881rem + 7.207vi, 12.8rem);
+  --size-128: clamp(9.6rem, 5.881rem + 7.207vi, 12.8rem); */
+}
+
+:root {
+  --size-0: 0;
+  --size-2: 0.2rem;
+  --size-4: 0.4rem;
+  --size-6: 0.6rem;
+  --size-8: 0.8rem;
+  --size-10: 1rem;
+  --size-11: 1.1rem;
+  --size-12: 1.2rem;
+  --size-13: 1.3rem;
+  --size-14: 1.4rem;
+  --size-15: 1.5rem;
+  --size-16: 1.6rem;
+  --size-18: 1.8rem;
+  --size-20: 2rem;
+  --size-24: 2.4rem;
+  --size-26: 2.6rem;
+  --size-28: 2.8rem;
+  --size-32: 3.2rem;
+  --size-40: 4rem;
+  --size-48: 4.8rem;
+  --size-56: 5.6rem;
+  --size-64: 6.4rem;
+  --size-80: 8rem;
+  --size-96: 9.6rem;
+  --size-112: 11.2rem;
+  --size-128: 12.8rem;
 }
