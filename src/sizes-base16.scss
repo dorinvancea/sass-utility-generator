@@ -1,0 +1,8 @@
+$base: 16;
+$spacing: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 24, 28, 32, 40, 48, 56, 64, 80, 96, 112, 128;
+
+:root {
+  @each $value in $spacing {
+    --size-#{$value}: #{calc($value / $base) + rem};
+  }
+}
